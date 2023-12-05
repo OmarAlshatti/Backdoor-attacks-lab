@@ -150,6 +150,3 @@ d = {'Attack Success Rate':
 G_score_df = pd.DataFrame(data=d)
 G_score_df.index = ['G_Model(2%)','G_Model(4%)','G_Model(10%)']
 G_score_df.to_csv('G_score.csv')
-G_model(new_model_2,bd_model).save('G_model2.h5')
-G_model(new_model_4,bd_model).save('G_model4.h5')
-G_model(new_model_10,bd_model).save('G_model10.h5')
